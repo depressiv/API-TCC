@@ -118,4 +118,4 @@ app.delete('/produtos/:id', async (req, resp) => {
 })
 
 app.listen(process.env.PORT,
-           x => console.log(`Server up at port ${process.env.PORT}`))
+           x => console.log(`Sucesso! A porta do seu servidor foi gerada: ${process.env.PORT}`))
