@@ -1,10 +1,10 @@
 import _sequelize from "sequelize";
 const DataTypes = _sequelize.DataTypes;
-import _tb_cliente from  "./tb_cliente.js";
-import _tb_endereco from  "./tb_endereco.js";
-import _tb_produto from  "./tb_produto.js";
-import _tb_venda_item from  "./tb_venda_item.js";
-import _tb_venda from  "./tb_venda.js";
+import _tb_cliente from  "./infoc_tcc_cliente.js";
+import _tb_endereco from  "./infoc_tcc_endereco.js";
+import _tb_produto from  "./infoc_tcc_produto.js";
+import _tb_venda_item from  "./infoc_tcc_venda_item.js";
+import _tb_venda from  "./infoc_tcc_venda.js";
 
 export default function initModels(sequelize) {
   var tb_cliente = _tb_cliente.init(sequelize, DataTypes);
